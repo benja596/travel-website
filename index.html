@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Explore the World</title>
+</head>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: #1f1f2f;
+      color: #ffff;
+
+    }
+
+    header {
+      background-color: #1f1f3f;
+      color: white;
+      text-align: center;
+      /* line-height: 1.6; */
+      border-bottom: 3px solid #ff9800;
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      color: #ff9800;
+    }
+
+    header p {
+      font-size: 1.1em;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px;
+      padding: 20px;
+    }
+
+    .main-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .destination {
+      background-color: #2a2a3f;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .destination h2 {
+      margin: 10px;
+      color: #ff9800;
+    }
+
+    .destination img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      color: #ffff;
+      border: none;
+      border-radius: 5px;
+      padding: 12px;
+      margin-top: 10px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    #rwanda-btn {
+      background-color: #4caf50;
+    }
+
+    #paris-btn {
+      background-color: #f44336;
+    }
+
+    #newyork-btn {
+      background-color: #2196f3;
+    }
+
+    #tokyo-btn {
+      background-color: #ffeb3d;
+    }
+
+    .sidebar {
+      background-color: #212121;
+      padding: 20px;
+      color: white;
+      /* width: 100%; */
+      text-align: left;
+    }
+
+    .sidebar h3 {
+      color: #ffff;
+      font-size: 1.4em;
+      margin-bottom: 15px;
+    }
+
+    .sidebar ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      margin-top: 12px;
+      border-top: 2px solid #e0e0e0;
+    }
+  </style>
+<body>
+  <header>
+    <h1>Explore the World</h1>
+    <p>Discover Amazing Travel Destination</p>
+  </header>
+
+  <div class="container">
+
+    <div class="main-content">
+      <div class="destination">
+        <h2>Kigali, Rwanda</h2>
+        <img src="image/kigali.jpg" alt="kigali Image">
+        <p>Explore the breathtaking landscapes and wildlife of the land of thousand hills</p>
+        <button class="btn" id="rwanda-btn">Explore Kigali</button>
+      </div>
+      
+
+      <div class="destination">
+        <h2>Paris, France</h2>
+        <img src="image/Paris.jpg" alt="paris Image">
+        <p>Experience the romance and buety of city lights!</p>
+        <button class="btn" id="paris-btn">Explore Paris</button>
+      </div>
+      
+      
+
+      <div class="destination">
+        <h2>New York, USA</h2>
+        <img src="image/Newyork.webp" alt="Newyork Image">
+        <p>Visit the busting streets of times Square and central park</p>
+        <button class="btn" id="newyork-btn">Explore New York</button>
+      </div>
+      
+      
+
+      <div class="destination">
+        <h2>Tokyo, Japan</h2>
+        <img src="image/Tokyo.jpg" alt="Tokyo Image">
+        <p>Dive into the vibrant culture and cuisine of Tokyo</p>
+        <button class="btn" id="tokyo-btn">Explore Tokyo</button>
+      </div>
+      
+      </div>
+      </div>
+
+      <div class="sidebar">
+        <h3>Travel Tips</h3>
+        <ul>
+          <li>Pack Light</li>
+          <li>Stay Light</li>
+          <li>Learn basic Local Languages</li>
+          <li>Keep your Document Safe</li>
+        </ul>
+      </div>
+
+      <footer>
+        <p>&copy; 2024 Explore the World, All Rights Reserved</p>
+      </footer>
+</body>
+</html>
